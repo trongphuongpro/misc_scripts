@@ -3,34 +3,6 @@ from collections import namedtuple
 import csv
 import time
 
-# channel_id = 'UCcV-FFQ0afjYZ69EUjRhuUw'
-filename = {'channel_11.txt': 'UCH8OKJPbNN5BK6WBLw6FkoA',
-            'channel_12.txt': 'UCPviMlOptqu2TZXcH86UJAA',
-            'channel_13.txt': 'UCzTq8ql5vDwGqPq0aIgMGmQ',
-            'channel_14.txt': 'UC5BktV4f2IujYpB9pxsbOnQ',
-            'channel_15.txt': 'UC4PiiCb4lvhpt-95Kx9TURw',
-            'channel_16.txt': 'UCej0qHIuiDzmROHNke9XomQ',
-            'channel_17.txt': 'UCXRx-r9ElNeuEkW1HkH_evw',
-            'channel_18.txt': 'UCyQ2fT6YjAwbyS9eD5mwwrg',
-            'channel_19.txt': 'UC59fO7K5QJ5J7f2Mh0_57Tg',
-            'channel_20.txt': 'UCrSgRsZjKrtuIaecWgO4iuA',
-}
-
-
-api_keys = [
-            'AIzaSyCU0f0X0Ak6r4DJ_4SClpBLOwd4SNUslpA',
-            'AIzaSyABj5Ma9x6La5jYxcJfBzcj3uh8eCpDd4Q',
-            'AIzaSyCUj_xB4pPhMibLi5u02wdSMYayUVWw5oc',
-            'AIzaSyArMurGNDrRTW38e5M6GYXf6qs8QAZqCZg',
-            'AIzaSyCmfcQwdvrZa1HISZkpnQLhrXYNCiwbPNA',
-            'AIzaSyCmNt7AJpME9-pdQRKkunSTRvY53nZlQ5A',
-            'AIzaSyCRCG58dQq4D8ELYvNlXRbi5XYobCg8EGE',
-            'AIzaSyChL_WRlYFwTk1TZx7SzUghd-ilk63GXZ0',
-            'AIzaSyCncHtbM8MtncxJWOJTWpA3wF5Q7saJ-3M',
-        ]
-
-# timemark_after = '2021-05-01T00:00:00Z'
-# timemark_before = '2021-06-01T00:00:00Z'
 
 timemarks = ['2021-11-11T00:00:00Z', '2021-10-01T00:00:00Z',
             '2021-09-01T00:00:00Z','2021-08-01T00:00:00Z', '2021-07-01T00:00:00Z',
